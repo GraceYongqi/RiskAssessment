@@ -150,8 +150,20 @@ def fuzzy_plus(f):
         for i in f:
             tmp = tmp+i[j]
         plus_res.append(precision(tmp,2))
-
     return plus_res
+
+def fuzzywith2heights_plus(f1,f2):
+    '''
+    :param f: 若干个模糊数（列表）组成的列表
+    :return: 列表
+    '''
+    plus_res = []
+    for i,j in zip(f1,f2):
+        plus_res.append(precision(i+j,2))
+    plus_res.append(min(f1[4],f2[4]))
+    plus_res.append(min(f1[5],f2[5]))
+    return plus_res
+
 
 # def fuzzy_weightedplus(self,f,w):
 def fuzzy_weightedplus(f,w):
@@ -168,8 +180,10 @@ def fuzzy_weightedplus(f,w):
 
 # def num_multiple_fuzzy(self,n,f):
 def num_multiple_fuzzy( n, f):
+    n = int(n)
     num_multiple_res = []
     for i in f:
+        # num_multiple_res.append(n*i)
         num_multiple_res.append(precision(n*i,2))
     return num_multiple_res
 

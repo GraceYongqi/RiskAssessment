@@ -494,7 +494,7 @@ def simlarity_caculator8(fnwh, level_fn):
 def simlarity_caculator9(fnwh, level_fn):
     # Chutia opt2
     # 只有这个算法可以计算两个峰值的模糊数相似性
-    print '--------caculator9----------'
+    # print '--------caculator9----------'
     if height_distinguish(fnwh)==0 or height_distinguish(level_fn)==0:
         fnwh.setHeight2(fnwh.getHeight())
         level_fn.setHeight2(level_fn.getHeight())
@@ -542,7 +542,7 @@ def simlarity_caculator9(fnwh, level_fn):
         rxA = 0
         ryA = sqrt((pow(a1,2)+pow(a4,2)+a1*a4)/3)
     else:
-        print 'area:**************',aA
+        # print 'area:**************',aA
         # aA = fnwh.getArea()
         # if aA == 0 :
         #     return 'None'

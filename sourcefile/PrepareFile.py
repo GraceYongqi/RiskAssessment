@@ -29,6 +29,20 @@ expert_count = 8
 是否计算相似性
 '''
 sim_caculator = 1
+
+# 用于newExcuteFile
+# 制定每一类型风险各有多少个要素，可以从外面传
+Risk_count = 4
+Risk1 = 3
+Risk2 = 3
+Risk3 = 3
+Risk4 = 3
+first_stop = Risk1
+second_stop = Risk1+Risk2
+third_stop = second_stop + Risk3
+forth_stop = third_stop + Risk4
+stops = [first_stop, second_stop, third_stop, forth_stop]
+#############################################
 # '''
 # probability fuzzy numbers
 # '''

@@ -96,6 +96,10 @@ def getTotalEval():
 # main function
 if __name__ == '__main__':
     inputEval()
+
+    # 这里获取到的totaoRes包括了所有类型风险的模糊风险值
+    # [[风险1名称，风险1模糊值]，[风险2名称，风险2模糊值]，[风险3名称，风险3模糊值]，......]
+
     totalRes = getTotalEval()
     print totalRes
     for i in totalRes:
@@ -108,7 +112,7 @@ if __name__ == '__main__':
             # sims1.append([key, FuzzyNumber.simlarity_caculator7(target_fn, level_fn)])
             # sims1.append([key, FuzzyNumber.simlarity_caculator3(target_fn, level_fn)])
             # sims1.append([key, FuzzyNumber.simlarity_caculator4(target_fn, level_fn)])
-            sims1.append([key, FuzzyNumber.simlarity_caculator5(target_fn, level_fn)])
+            sims1.append([key, FuzzyNumber.simlarity_caculator9(target_fn, level_fn)])
             # sims1.append([key, FuzzyNumber.simlarity_caculator6(target_fn, level_fn)])
 
         max_sim1 = max(sims1, key=lambda sim1: sim1[1])
