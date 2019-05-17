@@ -76,16 +76,19 @@ def inputEval():
 #
 
 def getTotalEval():
-
     totalRisk = []
     riskComment = []
     for eachEval in risks:
-        for c in range(size):
+        for c in range(expert_count):
             # 聚合
-            riskComment.append(fuzzy_multiple(eachEval[1][c],eachEval[2][c]))
+            tmp = fuzzy_multiple(eachEval[1][c],eachEval[2][c])
+            riskComment.append(tmp)
+            print 'Comment',tmp
         multipleRes = fuzzy_plus(riskComment)
         # divRes = fuzzy_division(multipleRes,fuzzy_plus(eachEval[2]))
         divRes = fuzzy_division(multipleRes,fuzzy_plus(eachEval[1]))
+        # divRes = multipleRes
+
         totalRisk.append([eachEval[0],divRes])
         riskComment = []
     return totalRisk
@@ -118,13 +121,17 @@ if __name__ == '__main__':
         max_sim1 = max(sims1, key=lambda sim1: sim1[1])
         sorted_sims1  = sorted(sims1, key=lambda sim1: sim1[1])
         risk_level1 = max_sim1[0]
-        print risk_level1
+        print i[0]+':'+risk_level1
 
         # risk_table = prettytable.PrettyTable([ '风险等级','Chen相似度'])
         # risk_table = prettytable.PrettyTable([ '风险等级','Xu相似度'])
         # risk_table = prettytable.PrettyTable([ '风险等级','Khorshidi相似度'])
-        risk_table = prettytable.PrettyTable([ '风险等级','Chutia相似度'])
-        # risk_table = prettytable.PrettyTable([ '风险等级','Chutia optimization相似度'])
+
+        # risk_table = prettytable.PrettyTable([ '风险等级','Chutia相似度'])
+
+        risk_table = prettytable.PrettyTable([ '风险等级','Chutia optimization相似度'])
+
+        #  输出相似度
         risk_table.add_row(['-----------','--------'])
         for j in sorted_sims1:
             risk_table.add_row([j[0],j[1]])

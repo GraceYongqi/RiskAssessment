@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff5ade30-3ece-434c-a864-1e2d15008504" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inputfile/expert/Choice_of_factors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputfile/expert/Impact_of_factors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcefile/Caculators.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/Caculators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcefile/FuzzyNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/FuzzyNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outfile/analysis_out.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sourcefile/InputFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/InputFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourcefile/PrepareFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/PrepareFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,54 +23,56 @@
     <session id="-82562386">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="48" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="17" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Choice_of_factors" value="1" />
+          <entry key="Choice_of_factors" value="2" />
           <entry key="Impact_choice_of_factors" value="1" />
-          <entry key="csv" value="32" />
+          <entry key="Impact_of_factors" value="1" />
+          <entry key="csv" value="36" />
           <entry key="md" value="3" />
-          <entry key="py" value="45" />
+          <entry key="py" value="51" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="31" />
+          <entry key="CSV" value="36" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="45" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Choice_of_factors" value="24" />
           <entry key="Impact_choice_of_factors" value="49" />
-          <entry key="csv" value="3775" />
+          <entry key="csv" value="4354" />
           <entry key="dummy" value="16" />
           <entry key="md" value="436" />
-          <entry key="py" value="20822" />
-          <entry key="txt" value="13" />
+          <entry key="py" value="21223" />
+          <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="3779" />
+          <entry key="CSV" value="4358" />
           <entry key="Markdown" value="436" />
-          <entry key="PLAIN_TEXT" value="98" />
-          <entry key="Python" value="20822" />
+          <entry key="PLAIN_TEXT" value="193" />
+          <entry key="Python" value="21223" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -82,75 +82,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/similaritycalculators/CaculateConsole.py">
+        <entry file="file://$PROJECT_DIR$/similaritycalculators/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="2700">
+              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inputfile/expert/Impact_of_factors">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="58" lean-forward="true" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-              <folding>
-                <element signature="e#184#202#0" expanded="true" />
-                <marker date="1554783340227" expanded="true" signature="837:838" ph="..." />
-                <marker date="1554783340227" expanded="true" signature="1101:1117" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4643">
-              <caret line="187" column="27" lean-forward="true" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="545" column="29" lean-forward="true" selection-start-line="545" selection-start-column="29" selection-end-line="545" selection-end-column="29" />
-              <folding>
-                <element signature="e#140#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/similaritycalculators/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="48" />
-              <folding>
-                <element signature="e#134#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-949">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="401">
+              <caret line="117" column="63" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
               <folding>
                 <element signature="e#167#176#0" expanded="true" />
               </folding>
@@ -159,11 +121,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1628">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="54">
+                <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -172,11 +161,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -205,6 +190,9 @@
       <find>0.1,0.2,0.3,0.4,1</find>
       <find>0.6,0.6,0.6,0.6,0</find>
       <find>totalres</find>
+      <find>9</find>
+      <find>6</find>
+      <find>cal</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -227,7 +215,6 @@
         <option value="$PROJECT_DIR$/similaritycalculators/CaculateConsole.py" />
         <option value="$PROJECT_DIR$/outfile/similarity_out.csv" />
         <option value="$PROJECT_DIR$/sourcefile/RiskFactor.py" />
-        <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" />
         <option value="$PROJECT_DIR$/inputfile/dataset/fuzzywithheight.csv" />
         <option value="$PROJECT_DIR$/inputfile/dataset/fnwhForOptimization.csv" />
         <option value="$PROJECT_DIR$/inputfile/dataset/fnwhForChutia.csv" />
@@ -238,11 +225,13 @@
         <option value="$PROJECT_DIR$/inputfile/expert/Impact_choice_of_factors" />
         <option value="$PROJECT_DIR$/inputfile/expert/Choice_of_factors" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/sourcefile/PrepareFile.py" />
         <option value="$PROJECT_DIR$/sourcefile/FuzzyNumber.py" />
         <option value="$PROJECT_DIR$/sourcefile/Caculators.py" />
-        <option value="$PROJECT_DIR$/sourcefile/InputFile.py" />
         <option value="$PROJECT_DIR$/sourcefile/newExcuteFile.py" />
+        <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" />
+        <option value="$PROJECT_DIR$/sourcefile/PrepareFile.py" />
+        <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" />
+        <option value="$PROJECT_DIR$/sourcefile/InputFile.py" />
       </list>
     </option>
   </component>
@@ -252,9 +241,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -295,12 +285,22 @@
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
+              <item name="outfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
               <item name="similaritycalculators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
               <item name="sourcefile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -422,13 +422,21 @@
       <option name="presentableId" value="Default" />
       <updated>1541638715158</updated>
     </task>
+    <task id="LOCAL-00001" summary="增加newExcuteFile&#10;读取choice&amp;impact_of_factors，聚合各个类型风险的所有风险要素计算模糊风险值，确定不同类型的风险等级">
+      <created>1554801830879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554801830879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,7 +459,7 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,7 +470,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.009638554" />
@@ -479,6 +487,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加newExcuteFile&#10;读取choice&amp;impact_of_factors，聚合各个类型风险的所有风险要素计算模糊风险值，确定不同类型的风险等级" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加newExcuteFile&#10;读取choice&amp;impact_of_factors，聚合各个类型风险的所有风险要素计算模糊风险值，确定不同类型的风险等级" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sourcefile/other.py">
@@ -503,13 +515,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/EstablishFuzzy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/outfile/similarity_out的副本.csv" />
     <entry file="file://$PROJECT_DIR$/similaritycalculators/similarity_out.csv">
@@ -606,36 +611,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="112" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/Impact_of_factors">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/outfile/analysis_out.csv" />
     <entry file="file://$PROJECT_DIR$/similaritycalculators/CaculateConsole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="729">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/EstablishFuzzy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -646,68 +640,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-949">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="751">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/similaritycalculators/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="48" />
-          <folding>
-            <element signature="e#134#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2700">
+          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/Impact_of_factors">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4643">
-          <caret line="187" column="27" lean-forward="true" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+        <state relative-caret-position="596">
+          <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
+      <provider editor-type-id="csv-text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="58" lean-forward="true" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="545" column="29" lean-forward="true" selection-start-line="545" selection-start-column="29" selection-end-line="545" selection-end-column="29" />
-          <folding>
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2310">
+          <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="401">
+          <caret line="117" column="63" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
           <folding>
             <element signature="e#167#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-          <folding>
-            <element signature="e#184#202#0" expanded="true" />
-            <marker date="1554783340227" expanded="true" signature="837:838" ph="..." />
-            <marker date="1554783340227" expanded="true" signature="1101:1117" ph="..." />
           </folding>
         </state>
       </provider>

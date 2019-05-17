@@ -42,6 +42,8 @@ second_stop = Risk1+Risk2
 third_stop = second_stop + Risk3
 forth_stop = third_stop + Risk4
 stops = [first_stop, second_stop, third_stop, forth_stop]
+
+Risk_names = ['舆情风险','质量风险','效率风险','廉政风险']
 #############################################
 # '''
 # probability fuzzy numbers

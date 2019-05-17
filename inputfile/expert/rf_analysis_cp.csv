@@ -24,3 +24,14 @@ A12
 low,medium,high,minor,serious,critical
 A13
 low,high,high,negligible,critical,critical
+
+
+A1
+very low,very low,high,very low,low,fairly low,fairly low,high,absolutely low,fairly high,fairly low,fairly low,fairly low,very low,low,fairly high
+A2
+very low,very low,high,very low,low,fairly low,fairly low,high,absolutely low,fairly high,fairly low,fairly low,fairly low,very low,low,fairly high
+A3
+very low,very low,high,very low,low,fairly low,fairly low,high,absolutely low,fairly high,fairly low,fairly low,fairly low,very low,low,fairly high
+A4
+very low,very low,high,very low,low,fairly low,fairly low,high,absolutely low,fairly high,fairly low,fairly low,fairly low,very low,low,fairly high
+

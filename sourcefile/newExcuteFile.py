@@ -16,6 +16,7 @@ from FuzzyNumber import fuzzy_plus
 from PrepareFile import stops
 import FuzzyNumber
 from PrepareFile import score_levels
+from PrepareFile import Risk_names
 
 # global variables
 # 制定各类型风险有多少个要素
@@ -80,5 +81,10 @@ if __name__ == '__main__':
 
         # 最高相似度对应的级别
         risk_level1 = max_sim1[0]
-        print index+1
+        print index+1,Risk_names[index]
         print risk_level1
+
+        # alarm_levels = ['fairly high','high','very high','absolutely high']
+        # if risk_level1 in alarm_levels:
+        #     # 生成风险报告
+        #     with open('')
