@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff5ade30-3ece-434c-a864-1e2d15008504" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outfile/analysis_out.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcefile/InputFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/InputFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcefile/PrepareFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/PrepareFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,18 +18,18 @@
     <session id="-82562386">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="50" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="17" />
           <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,7 +39,7 @@
           <entry key="Impact_of_factors" value="1" />
           <entry key="csv" value="36" />
           <entry key="md" value="3" />
-          <entry key="py" value="51" />
+          <entry key="py" value="52" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -53,7 +48,7 @@
           <entry key="CSV" value="36" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="51" />
+          <entry key="Python" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,16 +58,16 @@
           <entry key="csv" value="4354" />
           <entry key="dummy" value="16" />
           <entry key="md" value="436" />
-          <entry key="py" value="21223" />
-          <entry key="txt" value="108" />
+          <entry key="py" value="21305" />
+          <entry key="txt" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="4358" />
           <entry key="Markdown" value="436" />
-          <entry key="PLAIN_TEXT" value="193" />
-          <entry key="Python" value="21223" />
+          <entry key="PLAIN_TEXT" value="264" />
+          <entry key="Python" value="21305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -103,19 +98,16 @@
         <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" column="58" lean-forward="true" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="117" column="63" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
-              <folding>
-                <element signature="e#167#176#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="648">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -123,8 +115,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+            <state relative-caret-position="441">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -132,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
+            <state relative-caret-position="7938">
               <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
             </state>
           </provider>
@@ -141,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+            <state relative-caret-position="-538">
+              <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -152,7 +153,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="54">
-                <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+                <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -161,7 +162,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
-          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -227,11 +232,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sourcefile/FuzzyNumber.py" />
         <option value="$PROJECT_DIR$/sourcefile/Caculators.py" />
-        <option value="$PROJECT_DIR$/sourcefile/newExcuteFile.py" />
         <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" />
         <option value="$PROJECT_DIR$/sourcefile/PrepareFile.py" />
         <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" />
         <option value="$PROJECT_DIR$/sourcefile/InputFile.py" />
+        <option value="$PROJECT_DIR$/sourcefile/newExcuteFile.py" />
       </list>
     </option>
   </component>
@@ -252,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,6 +310,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,14 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554801830879</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改bug，InputFile中，聚合函数，循环用expert_count计数（而不是size模糊数长度），将所有专家（8个评价）求和">
+      <created>1558076798373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558076798373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -490,7 +502,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加newExcuteFile&#10;读取choice&amp;impact_of_factors，聚合各个类型风险的所有风险要素计算模糊风险值，确定不同类型的风险等级" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加newExcuteFile&#10;读取choice&amp;impact_of_factors，聚合各个类型风险的所有风险要素计算模糊风险值，确定不同类型的风险等级" />
+    <MESSAGE value="修改bug，InputFile中，聚合函数，循环用expert_count计数（而不是size模糊数长度），将所有专家（8个评价）求和" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改bug，InputFile中，聚合函数，循环用expert_count计数（而不是size模糊数长度），将所有专家（8个评价）求和" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sourcefile/other.py">
@@ -525,60 +538,60 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/dataset/fuzzywithheight.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1150">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outfile/similarity_out.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="53">
-          <caret line="2" column="150" lean-forward="true" selection-start-line="2" selection-start-column="150" selection-end-line="2" selection-end-column="150" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1150">
+          <caret lean-forward="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outfile/similarity_out.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="40" selection-start-column="40" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data.csv">
       <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="314">
-          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="53">
+          <caret line="2" column="150" lean-forward="true" selection-start-line="2" selection-start-column="150" selection-end-line="2" selection-end-column="150" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1863">
           <caret line="69" column="21" selection-start-line="66" selection-end-line="69" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data_final.csv">
       <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="697">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="314">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data_final.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1431">
           <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
         </state>
       </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="697">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data_final_cp.csv">
+      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="-248">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/RiskFactor.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,26 +601,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForChutia.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForOptimization.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="9" />
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForOptimization.csv">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -616,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -661,64 +667,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-text-editor">
         <state>
           <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="58" lean-forward="true" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
+    <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
+        <state relative-caret-position="7938">
           <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="117" column="63" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
-          <folding>
-            <element signature="e#167#176#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
         </state>
       </provider>
     </entry>

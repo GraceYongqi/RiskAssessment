@@ -54,6 +54,7 @@ if __name__ == '__main__':
     # 依次读取choice和impact
     counter = 1
     f = []
+    out = []
     with open(impact_path,'r') as impact_file, open(choice_path,'r') as choice_file:
         for impact,choice in zip(impact_file,choice_file):
             counter = counter + 1
@@ -82,7 +83,10 @@ if __name__ == '__main__':
         # 最高相似度对应的级别
         risk_level1 = max_sim1[0]
         print index+1,Risk_names[index]
+
+        # y.append 传给前端[[x1,x2,x3...],[y1,y2,y3...]] x为风险类型，是固定的
         print risk_level1
+        out.append(risk_level1)
 
         # alarm_levels = ['fairly high','high','very high','absolutely high']
         # if risk_level1 in alarm_levels:
