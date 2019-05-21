@@ -58,6 +58,7 @@ impact_arr = ["very low", "low", "low", "low", "high", "high", "high", "fairly l
 def compute_risk_level(choice_arr):
     f = []
     out = []
+    totalRes = []
     for counter in range(len(choice_arr)):
         impact_fn = init_fuzzy(impact_arr[counter])
         fn_element = num_multiple_fuzzy(choice_arr[counter], impact_fn)
@@ -65,10 +66,11 @@ def compute_risk_level(choice_arr):
         fns_of_risks = plus_separately(f,stops)
         # 这里获取到的totalRes只有所有风险的模糊风险值，按顺序存放，没有风险名称
         totalRes = fns_of_risks
-        
+
     # 依次计算每一类风险的风险等级
     # for index, totalRes in enumerate(fns_of_risks):
-    for (index, i) in enumerate(totalRes):
+    for index, i in enumerate(totalRes):
+
         # print i[0]
         sims1 = []
         target_fn = FuzzyNumber.fnWithHeight(i, 1)
@@ -86,10 +88,9 @@ def compute_risk_level(choice_arr):
         # print index+1,Risk_names[index]
 
         # y.append 传给前端[[x1,x2,x3...],[y1,y2,y3...]] x为风险类型，是固定的
-        # print risk_level1
-        out.append(risk_level1)
 
-        return out
+        out.append(risk_level1)
+    return out
 
         # alarm_levels = ['fairly high','high','very high','absolutely high']
         # if risk_level1 in alarm_levels:
