@@ -135,7 +135,7 @@ def test():
         # y.append 传给前端[[x1,x2,x3...],[y1,y2,y3...]] x为风险类型，是固定的
         print risk_level1
         out.append(risk_level1)
-
+# out不能在循环内
     return out
 
         # alarm_levels = ['fairly high','high','very high','absolutely high']
