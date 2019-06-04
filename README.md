@@ -19,3 +19,9 @@ very low,very low,high,very low,low,fairly low,fairly low,high,absolutely low,fa
 
 设定好专家人数 expert_count = 8
 前面8个probability，后面8个impact
+
+python InputFile\.py 是读取rf_analysis.csv中的8位专家的评价短语计算风险值
+涉及到聚合算法
+
+python newExcuteFile\.py 是连到前端的后台模型，前端传递1/0选项，后端直接用1/0做系数得到乘积之和
+不涉及聚合算法，是当前的审判风险模型
