@@ -38,7 +38,7 @@ risks = []
 def inputEval():
     '''
     读取rf_analysis.csv，获取到所有专家对风险的语言描述评级
-    :return: 每一个风险因素的专家评级： [风险名称,[prob1，prob2...],[impact1,impact2...]]
+    :return: 所有风险的每一个因素的专家评级： [风险名称,[prob1，prob2...],[impact1,impact2...]]
     '''
     with open(file_path,'r') as inputfile:
         riskEval = []
@@ -59,7 +59,7 @@ def inputEval():
                     fn = init_fuzzy(impact_eval)
                     riskEval[2].append(fn)
                 risks.append(riskEval)
-
+    return risks
 # def getTotalEval():
 #
 #     totalRisk = []
