@@ -11,9 +11,10 @@
 # import modules
 import copy
 import InputFile
-
+from PrepareFile import precision
 # global variables
-size = 4
+# size = 4
+size = 3
 n = size - 1
 # class definition
 
@@ -28,9 +29,9 @@ def PFWA(R, W,alpha):
     # PrepareFile中有模糊数形式，第4个元素是权值
     # 抽出三个区间值进行PWFA计算
 
-    # 只算边上两个区间值对应的结果为min和max
-    # 把R 两个区间值全部抽出来形成两个列表[a1,a2,a3,a4...]&[b1,b2,b3...]
-    # W中的区间值也抽出来 [c1,c2,c3...]&[d1,d2,d3...]
+
+
+    # 根据alpha修改区间值
     for r in R:
         if r[0]!=r[1] and r[0]!=r[2] and r[1]!=r[2]:
             r[0] = (alpha - (r[3]*r[0])/(r[0]-r[1]))/(r[3]/(r[1]-r[0]))
@@ -44,7 +45,9 @@ def PFWA(R, W,alpha):
         elif r[0] == r[1] == r[2]:
             pass
 
-
+    # 只算边上两个区间值对应的结果为min和max
+    # 把R 两个区间值全部抽出来形成两个列表[a1,a2,a3,a4...]&[b1,b2,b3...]
+    # W中的区间值也抽出来 [c1,c2,c3...]&[d1,d2,d3...]
     A = []
     B = []
     C = []
@@ -58,7 +61,6 @@ def PFWA(R, W,alpha):
     EC = copy.deepcopy(C)
     FD = copy.deepcopy(D)
 
-    # 根据alpha修改区间值
 
     # print len(EC)
     new_a = 0.000
@@ -94,7 +96,7 @@ def PFWA(R, W,alpha):
 
         # print 'c1:',c1
         # print 'dn:',dn
-        if new_w == new_wb == 0.000:
+        if new_w == 0:
             pass
         else:
             c1 = new_w
@@ -131,19 +133,28 @@ def PFWA(R, W,alpha):
 
         print 'EC:',EC
         print 'FD:',FD
+        print 'ecn:',ecn
+        print 'fd1:',fd1
         del B[mark_high_B]
         del EC[mark_high_B]
         del FD[mark_high_B]
 
 
+
+        if new_wb == 0:
+            pass
+        else:
+            # print 'awuawu~~',new_wb,new_w
+
+            fd1 = new_wb
+            ecn = new_wb
+        print 'ecn:', ecn
+        print 'fd1:', fd1
         if fd1+ecn == 0:
+            print 'elongpaoxiao',fd1+ecn
             new_b = 0
         else:
-                if new_w == new_wb == 0.000:
-                    pass
-                else:
-                    fd1 = new_wb
-                    ecn = new_wb
+            new_b = (b1 * fd1 + bn * ecn) / (fd1 + ecn)
 
         # if new_w == new_wb == 0.000:
         #     pass
@@ -162,6 +173,8 @@ def PFWA(R, W,alpha):
 
     a = new_a
     b = new_b
+    print 'a:',a
+    print 'b:',b
 
     return a, b
 
@@ -177,16 +190,15 @@ def alphaIteration(risks):
     # A = [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
     # alpha是8个权值更新迭代
     A = [0.0, 0.07, 0.23, 0.42, 0.65, 0.86, 0.97, 1.0]
+    # A = [0.0,0.5]
     low = 0.000
     high = 0.000
     weight = 0.000
-    medium = 0.000
 
     for risk in risks:
         '''
         针对当前风险获得它的模糊风险值 result
         '''
-
         R = risk[1]
         W = risk[2]
 
@@ -194,15 +206,18 @@ def alphaIteration(risks):
             # 每个alpha计算一个大轮
             # print 'alpha:',alpha
             a, b = PFWA(R, W, alpha)
+            # a, b = PFWA([[0.200, 0.384, 0.536,0.867],[0.133, 0.323, 0.485, 0.733],[0.443, 0.581, 0.667, 0.800]],
+            #             [[0.323, 0.485, 0.605,0.867],[0.528, 0.629, 0.667, 0.733],[0.491, 0.613, 0.658, 0.800]],alpha)
+            weight = alpha
             if alpha == 0.0:
                 low = a
                 high = b
             if a == b:
-                medium = a
-                weight = alpha
                 break
+
+        medium = (a+b)/2
         # 适应目前模糊数的输入格式
-        result = [low, medium, high, weight]
+        result = [precision(low,3), precision(medium,3), precision(high,3), precision(weight,3)]
         aggregationResult.append([risk[0],result])
 
     return aggregationResult
