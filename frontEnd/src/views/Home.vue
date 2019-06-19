@@ -22,6 +22,18 @@ import Chart  from '../components/Chart'
 import FormSelect from '../components/FormSelect'
 import {compute_level_risk} from '../api/api.js'
 
+let rish_map = {
+    'absolutely low'  :   1,
+    'very low'        :   2,
+    'low'             :   3,
+    'fairly low'      :   4,
+    'medium'          :   5,
+    'fairly high'     :   6,
+    'high'            :   7,
+    'very high'       :   8,
+    'absolutely high' :   9
+}
+
 export default {
     components: {
         Chart,
@@ -34,14 +46,15 @@ export default {
     },
     methods: {
         handleFormSelect (formData) {
+            console.log("筛选")
             this.getData(formData)
         },
 
-        getData (formData) {
-            let xAxis = ["测试1", "测试2", "测试3", "测试4", "测试5"]
-            let yAxis = xAxis.map(v => {
-                return parseInt(Math.random()*10) % 8 + 1
-            })
+        async getData (formData) {
+            console.log(formData)
+            let res = await compute_level_risk(formData)
+            let xAxis = ["测试1", "测试2", "测试3", "测试4"]
+            let yAxis = res.data.map(v => rish_map[v]) || [1,2,3,4]
 
             this.updateFigure({xAxis, yAxis})
         },

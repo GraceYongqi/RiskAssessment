@@ -31,8 +31,8 @@ export default {
         }
     },
     created () {
-        this.titleArray = [...Array(10)].map(_=>'选项');
-        this.valueArray = [...Array(10)].map(_=>0);
+        this.titleArray = [...Array(12)].map(_=>'选项');
+        this.valueArray = [...Array(12)].map(_=>0);
         this.handleSubmit()
     }
 }

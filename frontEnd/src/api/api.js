@@ -1,8 +1,8 @@
 import fetch from '../libs/fetch.js';
 
-export function compute_level_risk (data = {}) {
-  data = {
-    "choice_arr" : [1, 1, 1, 1, 1]
+export function compute_level_risk (choice = []) {
+  let data = {
+    "choice" : choice
   }
   return fetch({
     url: '/',
