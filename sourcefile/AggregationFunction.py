@@ -164,6 +164,7 @@ def PFWA(R, W,alpha):
         # new_b = (b1 * fd1 + bn * ecn) / (fd1 + ecn)
         new_wb = fd1 + ecn
         new_ec = new_fd = new_wb
+        B.append(new_b)
         EC.append(new_ec)
         FD.append(new_fd)
 
@@ -201,20 +202,19 @@ def alphaIteration(risks):
         '''
         R = risk[1]
         W = risk[2]
-
+        print risk[0]
+        print A
         for alpha in A:
+            print 'alpha iteration'
             # 每个alpha计算一个大轮
             # print 'alpha:',alpha
             a, b = PFWA(R, W, alpha)
-            # a, b = PFWA([[0.200, 0.384, 0.536,0.867],[0.133, 0.323, 0.485, 0.733],[0.443, 0.581, 0.667, 0.800]],
-            #             [[0.323, 0.485, 0.605,0.867],[0.528, 0.629, 0.667, 0.733],[0.491, 0.613, 0.658, 0.800]],alpha)
             weight = alpha
             if alpha == 0.0:
                 low = a
                 high = b
-            if a == b:
+            if a == b :
                 break
-
         medium = (a+b)/2
         # 适应目前模糊数的输入格式
         result = [precision(low,3), precision(medium,3), precision(high,3), precision(weight,3)]

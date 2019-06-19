@@ -5,7 +5,7 @@ export function compute_level_risk (choice = []) {
     "choice" : choice
   }
   return fetch({
-    url: '/',
+    url: '/compute_risk',
     method: 'post',
     data: data
   });

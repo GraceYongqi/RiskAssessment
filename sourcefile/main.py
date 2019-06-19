@@ -5,12 +5,14 @@ import os.path
 
 from newExcuteFile import compute_risk_level
 
-static_path = os.path.join(os.path.dirname(__file__), "static")	#这里增加设置了静态路径
+# static_path = os.path.join(os.path.dirname(__file__), "static")	
+static_path = os.path.join(os.path.dirname(__file__), "../frontEnd/dist/")
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        test = self.get_argument('test', '00')
-        self.write(str(test))
+        # test = self.get_argument('test', '00')
+        self.redirect('/static/index.html', permanent=True)
+        # self.write(str(test))
     
     def post(self):
         data = self.request.body.decode('utf-8')
@@ -21,8 +23,8 @@ class MainHandler(tornado.web.RequestHandler):
 
 def make_app():
     return tornado.web.Application([
-        (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": os.path.dirname(__file__)}),
-        (r"/api/*", MainHandler),
+        (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": static_path}),
+        (r"/compute_risk", MainHandler),
         (r"/", MainHandler)
     ])
 
