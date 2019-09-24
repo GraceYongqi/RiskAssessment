@@ -4,7 +4,7 @@
             <Card>
                 <p slot="title">
                     <Icon type="ios-american-football-outline" />
-                    选择区
+                    风险指标
                 </p>
                 <form-select @submit="handleFormSelect"></form-select>
             </Card>
@@ -53,7 +53,7 @@ export default {
         async getData (formData) {
             console.log(formData)
             let res = await compute_level_risk(formData)
-            let xAxis = ["测试1", "测试2", "测试3", "测试4"]
+            let xAxis = ["舆情风险", "质量风险", "效率风险", "廉政风险"]
             let yAxis = res.data.map(v => rish_map[v]) || [1,2,3,4]
 
             this.updateFigure({xAxis, yAxis})

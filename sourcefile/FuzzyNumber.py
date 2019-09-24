@@ -149,7 +149,7 @@ def fuzzy_plus(f):
         tmp = 0
         for i in f:
             tmp = tmp+i[j]
-        plus_res.append(precision(tmp,2))
+        plus_res.append(precision(tmp,6))
     return plus_res
 
 def fuzzywith2heights_plus(f1,f2):
@@ -184,21 +184,21 @@ def num_multiple_fuzzy( n, f):
     num_multiple_res = []
     for i in f:
         # num_multiple_res.append(n*i)
-        num_multiple_res.append(precision(n*i,2))
+        num_multiple_res.append(precision(n*i,6))
     return num_multiple_res
 
 # def fuzzy_multiple(self,f1,f2):
 def fuzzy_multiple(f1,f2):
     multiple_res = []
     for i in range(len(f1)):
-        multiple_res.append(precision(f1[i]*f2[i],2))
+        multiple_res.append(precision(f1[i]*f2[i],6))
 
     return multiple_res
 
 def fuzzy_division(f1,f2):
     division_res = []
     for i in range(len(f1)):
-        division_res.append(precision(f1[i]/f2[i],3))
+        division_res.append(precision(f1[i]/f2[i],6))
     return division_res
 
 

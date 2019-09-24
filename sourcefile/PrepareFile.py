@@ -24,7 +24,7 @@ inference = 1
 '''
 专家人数
 '''
-expert_count = 8
+expert_count = 3
 '''
 是否计算相似性
 '''
@@ -105,6 +105,8 @@ def precision(raw_num, preci):
         return float(Decimal(raw_num).quantize(Decimal('0.00')))
     if preci == 3:
         return float(Decimal(raw_num).quantize(Decimal('0.000')))
+    if preci == 6:
+        return float(Decimal(raw_num).quantize(Decimal('0.000000')))
 
 # class definition
 

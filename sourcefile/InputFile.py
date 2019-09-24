@@ -30,7 +30,8 @@ sim_caculator = PrepareFile.sim_caculator
 
 
 # global variables
-file_path = '/Users/yongqi/PycharmProjects/RiskAssessment/inputfile/expert/rf_analysis.csv'
+# file_path = '/Users/yongqi/PycharmProjects/RiskAssessment/inputfile/expert/rf_analysis.csv'
+file_path = '../inputfile/expert/rf_analysis.csv'
 risks = []
 
 # class definition
@@ -79,6 +80,7 @@ def getTotalEval():
     totalRisk = []
     riskComment = []
     for eachEval in risks:
+        print risks
         for c in range(expert_count):
             # 聚合
             tmp = fuzzy_multiple(eachEval[1][c],eachEval[2][c])
@@ -87,6 +89,7 @@ def getTotalEval():
         multipleRes = fuzzy_plus(riskComment)
         # divRes = fuzzy_division(multipleRes,fuzzy_plus(eachEval[2]))
         divRes = fuzzy_division(multipleRes,fuzzy_plus(eachEval[1]))
+        print divRes
         # divRes = multipleRes
 
         totalRisk.append([eachEval[0],divRes])
@@ -113,9 +116,12 @@ if __name__ == '__main__':
             # 计算当前风险和所有等级的相似度
             level_fn = FuzzyNumber.fnWithHeight(score_levels[key], 1)
             # sims1.append([key, FuzzyNumber.simlarity_caculator7(target_fn, level_fn)])
-            # sims1.append([key, FuzzyNumber.simlarity_caculator3(target_fn, level_fn)])
+            # sims1.append([key, FuzzyNumber.simlarity_caculator2(target_fn, level_fn)])
+            # sims1.append([key, FuzzyNumber.simlarity_caculator9(FuzzyNumber.fnWithHeight([0.1614,0.2683,.7052,1.0], 1), level_fn)])
+
             # sims1.append([key, FuzzyNumber.simlarity_caculator4(target_fn, level_fn)])
             sims1.append([key, FuzzyNumber.simlarity_caculator9(target_fn, level_fn)])
+
             # sims1.append([key, FuzzyNumber.simlarity_caculator6(target_fn, level_fn)])
 
         max_sim1 = max(sims1, key=lambda sim1: sim1[1])

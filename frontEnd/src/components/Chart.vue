@@ -20,7 +20,7 @@ export default {
                     }
                 },
                 title: {
-                    text: '风险等级图示',
+                    text: '风险预警等级',
                 },
                 visualMap: {
                     top: 0,
@@ -40,10 +40,10 @@ export default {
                 },
                 xAxis : {
                     type : 'category',
-                    name : '类别',
+                    name : '风险类别',
                     data : [],
                 },
-                yAxis: {min: 0, max: 9, name: '风险等级（level)'},
+                yAxis: {min: 0, max: 9, name: '风险等级'},
                 series : [
                     {
                         type:'bar',
@@ -62,7 +62,7 @@ export default {
                 },
                 series: [{
                     // 根据名字对应到相应的系列
-                    name: '风险等级（level)',
+                    name: '风险等级',
                     data: yAxis
                 }]
             }
