@@ -11,8 +11,6 @@
 # import modules
 import ConfigParser
 
-
-
 # global variables
 
 # class definition
