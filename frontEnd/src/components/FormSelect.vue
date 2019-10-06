@@ -1,5 +1,5 @@
 <template>
-    <Form :label-width="80">
+    <Form :label-width="100">
 
         <FormItem>
             <Button type="primary" @click="handleSubmit">计算风险等级</Button>
@@ -25,18 +25,19 @@ export default {
             valueArray : []
         }
     },
+    props: ['risk_indexes'],
     methods: {
         handleSubmit(){
             this.$emit('submit', this.valueArray)
         }
     },
-    created () {
-        //动态从后端获取指标名称和数量，12不写死
-        
-        //this.titleArray = [...Array(12)].map(_=>'选项');
-        this.titleArray = ['当事人曝光', '媒体报道', '法官自主上报', '社会关注类型', '分案随机', '繁案', '拒绝证据保全', '存在模糊证据', '涉及到赔偿', '被告无法联系', '出现延期审理', '调解失败'];
-        this.valueArray = [...Array(12)].map(_=>0);
-        this.handleSubmit()
+    watch: {
+        risk_indexes(){
+            this.titleArray = this.risk_indexes
+            console.log(this.titleArray, "this.titleArray")
+            this.valueArray = [...Array(this.titleArray.length)].map(_=>0);
+            this.handleSubmit()
+        }
     }
 }
 </script>

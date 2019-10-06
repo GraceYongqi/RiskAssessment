@@ -7,7 +7,7 @@ import tornado.web
 import json
 import os.path
 
-from newExcuteFile import compute_risk_level
+from newExcuteFile import compute_by_config
 import sys
 sys.path.append("../")
 from controlmodules.ReadConfig import readIndex
@@ -29,7 +29,8 @@ class MainHandler(tornado.web.RequestHandler):
         data = self.request.body.decode('utf-8')
         data = json.loads(data)
         choice_arr = data['choice']
-        risk_level = compute_risk_level(choice_arr)
+        print choice_arr
+        risk_level = compute_by_config(choice_arr)
         self.write(json.dumps({"data": risk_level}))
 
 class IndexHandler(tornado.web.RequestHandler):
@@ -38,8 +39,8 @@ class IndexHandler(tornado.web.RequestHandler):
 
     def get(self):
         # achive all risk indexes
-        # risk_indexes = readIndex()[0]
-        risk_indexes = ['无法联系','有人']
+        risk_indexes = readIndex()[0]
+        # risk_indexes = ['无法联系','有人']
         data = {
             "risk_indexes": risk_indexes
         }
@@ -76,7 +77,8 @@ def make_app():
 
 if __name__ == "__main__":
     app = make_app()
-    app.listen(8888)
+    app.listen(8889)
     tornado.ioloop.IOLoop.current().start()
+    print "start"
     # choice_arr = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     # print(compute_risk_level(choice_arr))

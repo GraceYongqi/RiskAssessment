@@ -1,17 +1,17 @@
 <template>
     <Row class="main-box" :gutter="16">
         <Col :span="6">
-            <Card>
+            <Card dis-hover>
                 <p slot="title">
                     <Icon type="ios-american-football-outline" />
                     风险指标
                 </p>
-                <form-select @submit="handleFormSelect"></form-select>
+                <form-select :risk_indexes="risk_indexes" @submit="handleFormSelect"></form-select>
             </Card>
         </Col>
 
         <Col :span="18">
-            <Card>
+            <Card dis-hover >
                 <chart :value="value"></chart>
             </Card>
         </Col>
@@ -20,7 +20,7 @@
 <script>
 import Chart  from '../components/Chart'
 import FormSelect from '../components/FormSelect'
-import {compute_level_risk} from '../api/api.js'
+import {compute_level_risk, get_metrics} from '../api/api.js'
 
 let rish_map = {
     'absolutely low'  :   1,
@@ -41,7 +41,8 @@ export default {
     },
     data () {
         return {
-            value : {}
+            value : {},
+            risk_indexes: []
         }
     },
     methods: {
@@ -61,10 +62,17 @@ export default {
 
         updateFigure (data = {}) {
             this.value = data
+        },
+
+        async getMetrics() {
+            let res = await get_metrics()
+            console.log(typeof res.risk_indexes, res)
+            this.$set(this, 'risk_indexes', res.risk_indexes)
         }
     },
-    created() {
+    async created() {
         compute_level_risk()
+        await this.getMetrics()
     },
 }
 </script>

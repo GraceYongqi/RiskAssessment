@@ -10,3 +10,19 @@ export function compute_level_risk (choice = []) {
     data: data
   });
 }
+
+export function get_metrics (params = {}) {
+  return fetch({
+    url: '/indexes',
+    method: 'get',
+    params: params
+  });
+}
+
+export function post_metrics (data = {}) {
+  return fetch({
+    url: '/indexes',
+    method: 'post',
+    data: data
+  });
+}

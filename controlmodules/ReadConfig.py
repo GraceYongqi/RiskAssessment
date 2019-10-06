@@ -30,7 +30,7 @@ def readIndex():
     stops.append(len(cf.sections()))
     cf.read('../configs/IndexOfIncorrupt.conf')
     stops.append(len(cf.sections()))
-    all_indexes = str(cf.sections()).decode('string_escape')
+    all_indexes = map(lambda x: str(x).decode('string_escape'), cf.sections())
     for name in cf.sections():
         impacts.append(cf.get(name, "impact"))
     return all_indexes,impacts,stops
