@@ -77,7 +77,7 @@ def make_app():
 
 if __name__ == "__main__":
     app = make_app()
-    app.listen(8889)
+    app.listen(8888)
     tornado.ioloop.IOLoop.current().start()
     print "start"
     # choice_arr = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]

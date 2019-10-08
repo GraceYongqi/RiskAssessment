@@ -5,7 +5,7 @@ import Vue from 'vue';
 console.log(process)
 
 let service = axios.create({ // 已经是一个promise 了
-  baseURL: '/api',
+  baseURL: '/',
   timeout: 30000
 });
 // POST传参序列化(添加请求拦截器)
