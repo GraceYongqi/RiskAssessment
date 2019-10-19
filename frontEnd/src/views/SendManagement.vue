@@ -2,26 +2,26 @@
   <div>
     <Row>
         <Col span="12" offset="4">
-          <h2 class="h2-title">添加指标</h2>
-          <MetricForm
-            @submit="handleSubmit"></MetricForm>
+          <h2 class="h2-title">修改推送方式</h2>
+          <MethodForm
+            @submit="handleSubmit"></MethodForm>
         </Col>
     </Row>
   </div>
 </template>
 
 <script>
-import MetricForm from '@/components/MetricForm.vue'
-import {post_metrics} from '@/api/api.js'
+import MethodForm from '@/components/MethodForm.vue'
+import {post_method} from '@/api/api.js'
 export default {
   components: {
-    MetricForm
+    MethodForm
   },
   methods: {
     async handleSubmit(formData) {
-      let res = await post_metrics(formData)
+      let res = await post_method(formData)
       console.log(res)
-      alert("添加成功！")
+      alert("修改成功！")
     }
   }
 }

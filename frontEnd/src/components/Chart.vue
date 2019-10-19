@@ -12,7 +12,9 @@ export default {
         return {
             myChart: {},
             options: {
-                legend: {},
+                legend: {
+                    
+                },
                 tooltip: {
                     formatter: function (obj) {
                         return '<div style="font-size: 14px;padding-bottom: 7px;margin-bottom: 7px">'
@@ -31,7 +33,7 @@ export default {
                     pieces: [
                         {gte: 8, lte: 9, color: 'red'},
                         {gte: 6, lte: 7, color: 'orange'},
-                        {lte: 5, color: 'yellow'}
+                        {gte: 3, lte: 5, color: 'yellow'}
                     ],
                     inRange: {
                         color: '#f00'

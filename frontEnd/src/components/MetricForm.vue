@@ -5,7 +5,7 @@
                 <Option 
                     v-for="(lable, index) in enumCategory"
                     :key="index"
-                    :value="index + 1">{{lable}}</Option>
+                    :value="index+1">{{lable}}</Option>
             </Select>
         </FormItem>
         <FormItem label="指标名称">
@@ -41,10 +41,10 @@
                 enumLevel: Config.enum_level,
                 enumCategory: Config.enum_category,
                 formItem: {
-                    name: 'test',
-                    probability: Config.enum_level[1],
-                    impact: Config.enum_level[2],
-                    category: 2
+                    name: '',
+                    probability: Config.enum_level[0],
+                    impact: Config.enum_level[0],
+                    category: 1
                 }
             }
         },

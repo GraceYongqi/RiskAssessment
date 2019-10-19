@@ -22,13 +22,13 @@ def readIndex():
     cf = ConfigParser.ConfigParser()
     impacts = []
     stops = []
-    cf.read('../configs/IndexOfSentiment.conf')
+    cf.read('../configs/1.conf')
     stops.append(len(cf.sections()))
-    cf.read('../configs/IndexOfQuality.conf')
+    cf.read('../configs/2.conf')
     stops.append(len(cf.sections()))
-    cf.read('../configs/IndexOfEfficiency.conf')
+    cf.read('../configs/3.conf')
     stops.append(len(cf.sections()))
-    cf.read('../configs/IndexOfIncorrupt.conf')
+    cf.read('../configs/4.conf')
     stops.append(len(cf.sections()))
     all_indexes = map(lambda x: str(x).decode('string_escape'), cf.sections())
     for name in cf.sections():
@@ -40,6 +40,7 @@ def readSend(level):
     sf.read("../configs/send.conf")
     isSend = sf.get(level,"issend")
     receiver = sf.get(level,"receiver")
+    print "raw rcv:" , receiver
     return isSend,receiver
 
 # main function

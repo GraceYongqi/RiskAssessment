@@ -12,15 +12,20 @@
 import PrepareFile
 from FuzzyNumber import init_fuzzy
 from FuzzyNumber import num_multiple_fuzzy
+from FuzzyNumber import fuzzy_multiple
 from FuzzyNumber import fuzzy_plus
 from PrepareFile import stops
 import FuzzyNumber
 from PrepareFile import score_levels
 from PrepareFile import Risk_names
+from PrepareFile import linguistic_to_fuzzy
 import sys
 sys.path.append("../")
 from controlmodules import RiskAlarm
 from controlmodules import ReadConfig
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 
 # global variables
 # 制定各类型风险有多少个要素
@@ -56,9 +61,17 @@ def plus_separately(fn,stoplist):
     return res
 
 impact_arr = ["very low", "low", "low", "low", "high", "high", "high", "fairly low", "high", "absolutely low", "fairly high", "fairly low", "fairly low"]
+occur_levels = {'极其低':'absolutely low','非常低':'very low','低':'low','较低':'fairly low',
+                '中等':'medium','较高':'fairly high','高':'high','非常高':'very high',
+                '极其高':'absolutely high', '确定发生':1, '确定未发生':0}
 
-
-
+def multiple_fuzzy(mul1, mul2):
+    if isinstance(mul1, int) is True:
+        res = num_multiple_fuzzy(mul1, mul2)
+    else:
+        mul1_fn = linguistic_to_fuzzy(mul1)
+        res = fuzzy_multiple(mul1_fn, mul2)
+    return res
 
 
 def compute_risk_level(choice_arr):
@@ -136,9 +149,9 @@ def test():
 
         # 最高相似度对应的级别
         risk_level1 = max_sim1[0]
-        print index+1,Risk_names[index]
+        # print index+1,Risk_names[index]
         # y.append 传给前端[[x1,x2,x3...],[y1,y2,y3...]] x为风险类型，是固定的
-        print risk_level1
+        # print risk_level1
         out.append(risk_level1)
         RiskAlarm.riskAlarm(Risk_names,out)
 # out不能在循环内
@@ -163,7 +176,9 @@ def compute_by_config(choice_arr):
     totalRes = []
     for counter in range(len(choice_arr)):
         impact_fn = init_fuzzy(impact_arr[counter])
-        fn_element = num_multiple_fuzzy(choice_arr[counter], impact_fn)
+        impact = occur_levels[str(choice_arr[counter])]
+        # fn_element = num_multiple_fuzzy(choice_arr[counter], impact_fn)
+        fn_element = multiple_fuzzy(impact, impact_fn)
         f.append(fn_element)
         fns_of_risks = plus_separately(f,stops)
         # 这里获取到的totalRes只有所有风险的模糊风险值，按顺序存放，没有风险名称
@@ -188,17 +203,18 @@ def compute_by_config(choice_arr):
         # 最高相似度对应的级别
         risk_level1 = max_sim1[0]
 
-        print index + 1, Risk_names[index]
+        # print index + 1, Risk_names[index]
         # y.append 传给前端[[x1,x2,x3...],[y1,y2,y3...]] x为风险类型，是固定的
-        print risk_level1
+        # print risk_level1
         alarm_level = ""
-        if risk_level1 in ["absolutely high","very high","high","fairly high"]:
+        if risk_level1 in ["absolutely high","very high"]:
             alarm_level = "high"
-        elif risk_level1 == "medium":
+        elif risk_level1 in ["fairly high", "high"]:
             alarm_level = "medium"
-        else:
+        elif risk_level1 in ["low", "very low", "medium"]:
             alarm_level = "low"
-        RiskAlarm.riskAlarm(alarm_level)
+        if alarm_level != "":
+            RiskAlarm.riskAlarm(alarm_level)
         out.append(risk_level1)
     return out
 

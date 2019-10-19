@@ -26,3 +26,11 @@ export function post_metrics (data = {}) {
     data: data
   });
 }
+
+export function post_method (data = {}) {
+  return fetch({
+    url: '/alarms',
+    method: 'post',
+    data: data
+  });
+}

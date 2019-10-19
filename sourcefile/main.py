@@ -29,7 +29,7 @@ class MainHandler(tornado.web.RequestHandler):
         data = self.request.body.decode('utf-8')
         data = json.loads(data)
         choice_arr = data['choice']
-        print choice_arr
+        # print choice_arr
         risk_level = compute_by_config(choice_arr)
         self.write(json.dumps({"data": risk_level}))
 
@@ -61,8 +61,8 @@ class AlarmHandler(tornado.web.RequestHandler):
         # add risk index
         data = self.request.body.decode('utf-8')
         data = json.loads(data)
-        level = data['level']
-        isSend = data['isSend']
+        level = data['risklevel']
+        isSend = data['issend']
         receiver = data['receiver']
         send_management(level, isSend, receiver)
 
@@ -71,7 +71,7 @@ def make_app():
         (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": static_path}),
         (r"/compute_risk", MainHandler),
         (r"/indexes", IndexHandler),
-        (r"/alarms", IndexHandler),
+        (r"/alarms", AlarmHandler),
         (r"/", MainHandler)
     ])
 

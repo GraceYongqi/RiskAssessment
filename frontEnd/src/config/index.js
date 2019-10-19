@@ -1,19 +1,46 @@
 export default {
     enum_level: [
-        "absolutely low",
-        "very low",
-        "low",
-        "fairly low",
-        "medium",
-        "fairly high",
-        "high",
-        "very high",
-        "absolutely high"
+        "极其低",
+        "非常低",
+        "低",
+        "较低",
+        "中等",
+        "较高",
+        "高",
+        "非常高",
+        "极其高"
+    ],
+    enum_risklevel: [
+        "低危",
+        "中危",
+        "高危"
     ],
     enum_category: [
-        "IndexOfSentiment",
-        "IndexOfQuality",
-        "IndexOfEfficiency",
-        "IndexOfIncorrupt"
+        "舆情风险",
+        "质量风险",
+        "效率风险",
+        "廉政风险"
+    ],
+    enum_occur: [
+        "确定发生",
+        "确定未发生",
+        "极其低",
+        "非常低",
+        "低",
+        "较低",
+        "中等",
+        "较高",
+        "高",
+        "非常高",
+        "极其高"
+    ],
+    enum_isSend: [
+        "否",
+        "是"
+    ],
+    enum_receiver: [
+        "无",
+        "审判人员",
+        "审管办&审判人员"
     ]
 }

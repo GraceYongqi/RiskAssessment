@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff5ade30-3ece-434c-a864-1e2d15008504" name="Default Changelist" comment="">
+    <list default="true" id="ff5ade30-3ece-434c-a864-1e2d15008504" name="Default Changelist" comment="增加cgi">
+      <change afterPath="$PROJECT_DIR$/configs/3.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcefile/AggregationFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/AggregationFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/IndexOfEfficiency.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/IndexOfIncorrupt.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/4.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/IndexOfQuality.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/2.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/IndexOfSentiment.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/1.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/send.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/send.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlmodules/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlmodules/ReadConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlmodules/RiskAlarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlmodules/RiskAlarm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlmodules/RiskManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlmodules/RiskManagement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/components/Chart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/components/Chart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/components/FormSelect.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/components/FormSelect.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/components/MetricForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/components/MetricForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/views/MetricManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/views/MetricManagement.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourcefile/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourcefile/newExcuteFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,56 +36,64 @@
     <session id="-82562386">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="58" />
+          <entry key="project.closed" value="79" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="17" />
-          <entry key="project.open.time.7" value="9" />
-          <entry key="project.open.time.8" value="12" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="58" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.6" value="21" />
+          <entry key="project.open.time.7" value="14" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.8" value="17" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Choice_of_factors" value="2" />
+          <entry key="Choice_of_factors" value="3" />
           <entry key="Impact_choice_of_factors" value="1" />
-          <entry key="Impact_of_factors" value="1" />
-          <entry key="csv" value="39" />
-          <entry key="md" value="3" />
-          <entry key="py" value="57" />
+          <entry key="Impact_of_factors" value="2" />
+          <entry key="conf" value="38" />
+          <entry key="csv" value="40" />
+          <entry key="md" value="5" />
+          <entry key="py" value="113" />
+          <entry key="riskmanage" value="1" />
+          <entry key="sendManage" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="39" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="57" />
+          <entry key="CSV" value="41" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Choice_of_factors" value="24" />
           <entry key="Impact_choice_of_factors" value="49" />
+          <entry key="Python Console" value="123" />
+          <entry key="conf" value="605" />
           <entry key="csv" value="4426" />
-          <entry key="dummy" value="16" />
-          <entry key="md" value="595" />
-          <entry key="py" value="25339" />
-          <entry key="txt" value="319" />
+          <entry key="dummy" value="40" />
+          <entry key="md" value="1059" />
+          <entry key="py" value="32028" />
+          <entry key="riskmanage" value="49" />
+          <entry key="txt" value="550" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="4430" />
-          <entry key="Markdown" value="595" />
-          <entry key="PLAIN_TEXT" value="404" />
-          <entry key="Python" value="25339" />
+          <entry key="Markdown" value="1059" />
+          <entry key="PLAIN_TEXT" value="1313" />
+          <entry key="Python" value="32151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -79,36 +103,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
+        <entry file="file://$PROJECT_DIR$/controlmodules/RiskManagement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            <state relative-caret-position="405">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
-                <element signature="e#167#176#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/AggregationFunction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5967">
-              <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
-              <folding>
-                <element signature="e#147#158#0" expanded="true" />
-                <marker date="1560409709496" expanded="true" signature="332:337" ph="..." />
-                <marker date="1560409709496" expanded="true" signature="332:4113" ph="..." />
-                <marker date="1560409709496" expanded="true" signature="1614:1622" ph="..." />
+                <marker date="1571476554911" expanded="true" signature="549:550" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,71 +117,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="385">
+              <caret line="81" column="9" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/1.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcefile/EstablishFuzzy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controlmodules/RiskAlarm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controlmodules/ReadConfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configs/send.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="190" column="18" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="127" column="52" lean-forward="true" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
+            <state relative-caret-position="371">
+              <caret line="216" column="12" selection-start-line="216" selection-start-column="12" selection-end-line="216" selection-end-column="12" />
               <folding>
                 <element signature="e#184#202#0" expanded="true" />
+                <marker date="1571477011180" expanded="true" signature="1912:2111" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7938">
-              <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="702">
-                <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForOptimization.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -217,8 +221,11 @@
       <find>cal</find>
       <find>very low</find>
       <find>absolutely high</find>
-      <find>print</find>
+      <find>caculator3</find>
       <find>pre</find>
+      <find>read</find>
+      <find>open</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -233,11 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sourcefile.py" />
-        <option value="$PROJECT_DIR$/sourcefile/excuteFile.py" />
-        <option value="$PROJECT_DIR$/sourcefile/ExcuteFile.py" />
-        <option value="$PROJECT_DIR$/sourcefile/EstablishFuzzy.py" />
-        <option value="$PROJECT_DIR$/sourcefile/Defuzzification.py" />
         <option value="$PROJECT_DIR$/sourcefile/other.py" />
         <option value="$PROJECT_DIR$/inputfile/rf_analysis.csv" />
         <option value="$PROJECT_DIR$/similaritycalculators/CaculateConsole.py" />
@@ -252,16 +254,43 @@
         <option value="$PROJECT_DIR$/inputfile/dataset/analysis_data_final.csv" />
         <option value="$PROJECT_DIR$/inputfile/expert/Impact_choice_of_factors" />
         <option value="$PROJECT_DIR$/inputfile/expert/Choice_of_factors" />
-        <option value="$PROJECT_DIR$/sourcefile/FuzzyNumber.py" />
         <option value="$PROJECT_DIR$/sourcefile/Caculators.py" />
         <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv" />
-        <option value="$PROJECT_DIR$/sourcefile/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/sourcefile/newExcuteFile.py" />
-        <option value="$PROJECT_DIR$/sourcefile/InputFile.py" />
+        <option value="$PROJECT_DIR$/sourcefile/AggregationFunction.py" />
         <option value="$PROJECT_DIR$/sourcefile/PrepareFile.py" />
         <option value="$PROJECT_DIR$/inputfile/expert/rf_analysis.csv" />
-        <option value="$PROJECT_DIR$/sourcefile/AggregationFunction.py" />
+        <option value="$PROJECT_DIR$/sourcefile/InputFile.py" />
+        <option value="$PROJECT_DIR$/control_modules/close_risk.py" />
+        <option value="$PROJECT_DIR$/controlmodules/SendRisk.py" />
+        <option value="$PROJECT_DIR$/controlmodules/tools.py" />
+        <option value="$PROJECT_DIR$/controlmodules/AccessControl.py" />
+        <option value="$PROJECT_DIR$/controlmodules/riskmanage" />
+        <option value="$PROJECT_DIR$/controlmodules/risks.conf" />
+        <option value="$PROJECT_DIR$/controlmodules/index.conf" />
+        <option value="$PROJECT_DIR$/controlmodules/CloseRisk.py" />
+        <option value="$PROJECT_DIR$/controlmodules/IndexOfQuality.conf" />
+        <option value="$PROJECT_DIR$/controlmodules/IndexOfEfficiency.conf" />
+        <option value="$PROJECT_DIR$/controlmodules/IndexOfIncorrupt.conf" />
+        <option value="$PROJECT_DIR$/controlmodules/IndexOfSentiment.conf" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/api_document.md" />
+        <option value="$PROJECT_DIR$/configs/IndexOfIncorrupt.conf" />
+        <option value="$PROJECT_DIR$/configs/IndexOfQuality.conf" />
+        <option value="$PROJECT_DIR$/configs/IndexOfEfficiency.conf" />
+        <option value="$PROJECT_DIR$/configs/IndexOfSentiment.conf" />
+        <option value="$PROJECT_DIR$/configs/4.conf" />
+        <option value="$PROJECT_DIR$/configs/2.conf" />
+        <option value="$PROJECT_DIR$/configs/3.conf" />
+        <option value="$PROJECT_DIR$/configs/1.conf" />
+        <option value="$PROJECT_DIR$/sourcefile/FuzzyNumber.py" />
+        <option value="$PROJECT_DIR$/controlmodules/RiskManagement.py" />
+        <option value="$PROJECT_DIR$/sourcefile/main.py" />
+        <option value="$PROJECT_DIR$/sourcefile/newExcuteFile.py" />
+        <option value="$PROJECT_DIR$/controlmodules/RiskAlarm.py" />
+        <option value="$PROJECT_DIR$/controlmodules/ReadConfig.py" />
+        <option value="$PROJECT_DIR$/controlmodules/send.conf" />
+        <option value="$PROJECT_DIR$/configs/send.conf" />
       </list>
     </option>
   </component>
@@ -270,6 +299,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/frontEnd/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/frontEnd/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -281,6 +318,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,64 +329,65 @@
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="backup" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="inputfile" type="462c0819:PsiDirectoryNode" />
+              <item name="controlmodules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="inputfile" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="inputfile" type="462c0819:PsiDirectoryNode" />
-              <item name="expert" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="outfile" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="similaritycalculators" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
               <item name="sourcefile" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RiskAssessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskAssessment" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/inputfile/dataset" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs" />
       <recent name="$PROJECT_DIR$/sourcefile" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs" />
       <recent name="$PROJECT_DIR$/sourcefile" />
+      <recent name="$PROJECT_DIR$/controlmodules" />
+      <recent name="$PROJECT_DIR$/inputfile/dataset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -507,28 +546,52 @@
       <option name="project" value="LOCAL" />
       <updated>1560406807640</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加风险预警(RiskAlarm.py)、风险管理模块(RiskManagement.py)。其中风险预警包括确定预警对象riskAlarm和发送推送消息sendAlarm；风险管理包括增加风险指标（index_management）、推送管理（send_management）。&#10;计算风险等级增加compute_by_config，根据配置文件中的指标进行计算，前端需同步改为动态读取配置文件显示指标，已写好接口。">
+      <created>1569312900556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569312900556</updated>
+    </task>
+    <task id="LOCAL-00010" summary="增加cgi">
+      <created>1570257529915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570257529915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2811159" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.38313252" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32998565" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.3698795" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.008608322" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4985694" visible="true" weight="0.3698795" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5114449" side_tool="true" weight="0.16987951" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.008433735" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.48855507" weight="0.2180723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,22 +599,22 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.38313252" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.009638554" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5114449" side_tool="true" weight="0.16987951" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.008433735" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.48855507" weight="0.39156628" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,6 +624,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -599,151 +665,44 @@
     <MESSAGE value="修改readme，区分两个执行文件" />
     <MESSAGE value="add AggregationFunction &#10;modify InputFile" />
     <MESSAGE value="modify medium/weight value&#10;fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify medium/weight value&#10;fix bug" />
+    <MESSAGE value="增加风险预警(RiskAlarm.py)、风险管理模块(RiskManagement.py)。其中风险预警包括确定预警对象riskAlarm和发送推送消息sendAlarm；风险管理包括增加风险指标（index_management）、推送管理（send_management）。&#10;计算风险等级增加compute_by_config，根据配置文件中的指标进行计算，前端需同步改为动态读取配置文件显示指标，已写好接口。" />
+    <MESSAGE value="增加cgi" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加cgi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sourcefile/other.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/rf_analysis.csv" />
-    <entry file="file://$PROJECT_DIR$/sourcefile/Defuzzification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/similaritycalculators/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outfile/similarity_out的副本.csv" />
-    <entry file="file://$PROJECT_DIR$/similaritycalculators/similarity_out.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="262">
-          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/dataset/fuzzywithheight.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1150">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outfile/similarity_out.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="53">
-          <caret line="2" column="150" lean-forward="true" selection-start-line="2" selection-start-column="150" selection-end-line="2" selection-end-column="150" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="314">
-          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="69" column="21" selection-start-line="66" selection-end-line="69" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data_final.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="697">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1431">
           <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
         </state>
       </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="697">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/dataset/analysis_data_final_cp.csv">
+      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="-248">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/RiskFactor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="41" selection-start-line="11" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForChutia.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/outfile/analysis_out.csv" />
-    <entry file="file://$PROJECT_DIR$/similaritycalculators/CaculateConsole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/EstablishFuzzy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/ExcuteFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="751">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/Impact_of_factors">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/similaritycalculators/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
@@ -751,48 +710,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForOptimization.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding>
-            <element signature="e#167#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/AggregationFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5967">
-          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
-          <folding>
-            <element signature="e#147#158#0" expanded="true" />
-            <marker date="1560409709496" expanded="true" signature="332:337" ph="..." />
-            <marker date="1560409709496" expanded="true" signature="332:4113" ph="..." />
-            <marker date="1560409709496" expanded="true" signature="1614:1622" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7938">
-          <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -806,54 +732,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis_cp.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputfile/dataset/fnwhForOptimization.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="9" />
+    <entry file="file://$PROJECT_DIR$/sourcefile/AggregationFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1163">
+          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/Defuzzification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="-492">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inputfile/expert/rf_analysis.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="76" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="76" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/Impact_of_factors">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="297">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile/expert/Choice_of_factors">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/RiskFactor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="13" selection-start-line="13" selection-start-column="2" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similaritycalculators/CaculateConsole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/CloseRisk.py" />
+    <entry file="file://$PROJECT_DIR$/sourcefile/InputFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/IndexOfEfficiency.conf" />
+    <entry file="file://$PROJECT_DIR$/controlmodules/IndexOfQuality.conf" />
+    <entry file="file://$PROJECT_DIR$/controlmodules/IndexOfSentiment.conf" />
+    <entry file="file://$PROJECT_DIR$/sourcefile/IndexOfEfficiency.conf" />
+    <entry file="file://$PROJECT_DIR$/controlmodules/IndexOfIncorrupt.conf" />
+    <entry file="file://$PROJECT_DIR$/controlmodules/sendManage" />
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/SendRisk.py" />
+    <entry file="file://$PROJECT_DIR$/controlmodules/AccessControl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_document.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/质量风险.conf" />
+    <entry file="file://$PROJECT_DIR$/configs/舆情风险.conf" />
+    <entry file="file://$PROJECT_DIR$/configs/IndexOfIncorrupt.conf" />
+    <entry file="file://$PROJECT_DIR$/configs/0.conf" />
+    <entry file="file://$PROJECT_DIR$/configs/3.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/4.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/2.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/PrepareFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/other.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/ExcuteFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/EstablishFuzzy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/Caculators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/1.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcefile/FuzzyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="190" column="18" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="385">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sourcefile/newExcuteFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="127" column="52" lean-forward="true" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
+        <state relative-caret-position="371">
+          <caret line="216" column="12" selection-start-line="216" selection-start-column="12" selection-end-line="216" selection-end-column="12" />
           <folding>
             <element signature="e#184#202#0" expanded="true" />
+            <marker date="1571477011180" expanded="true" signature="1912:2111" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/RiskAlarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/ReadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/send.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlmodules/RiskManagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <marker date="1571476554911" expanded="true" signature="549:550" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/send.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>

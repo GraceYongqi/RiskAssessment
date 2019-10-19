@@ -3,7 +3,7 @@
         <Layout>
             <Header>
                 <Menu mode="horizontal" theme="dark" active-name="1">
-                    <div class="layout-logo">风险系统</div>
+                    <div class="layout-logo">审判风险评估系统</div>
                     <div class="layout-nav">
                         <MenuItem name="1">
                             <Icon type="ios-navigate"></Icon>
@@ -12,6 +12,10 @@
                         <MenuItem name="2">
                             <Icon type="ios-keypad"></Icon>
                             <router-link tag="span" :to="{path: '/MetricManagement'}">指标管理</router-link>
+                        </MenuItem>
+                        <MenuItem name="3">
+                            <Icon type="ios-keypad"></Icon>
+                            <router-link tag="span" :to="{path: '/SendManagement'}">推送管理</router-link>
                         </MenuItem>
                     </div>
                 </Menu>
