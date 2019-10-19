@@ -40,7 +40,6 @@ def readSend(level):
     sf.read("../configs/send.conf")
     isSend = sf.get(level,"issend")
     receiver = sf.get(level,"receiver")
-    print "raw rcv:" , receiver
     return isSend,receiver
 
 # main function
