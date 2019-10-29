@@ -48,6 +48,7 @@ export default {
     methods: {
         handleFormSelect (formData) {
             console.log("筛选")
+            // console.log(formData)
             this.getData(formData)
         },
 

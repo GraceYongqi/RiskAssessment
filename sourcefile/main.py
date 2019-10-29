@@ -24,6 +24,7 @@ class MainHandler(tornado.web.RequestHandler):
     def get(self):
         self.redirect('/static/index.html', permanent=True)
 
+    #计算各个类别的风险等级
     def post(self):
         # achieve each risk level
         data = self.request.body.decode('utf-8')
@@ -37,6 +38,7 @@ class IndexHandler(tornado.web.RequestHandler):
     def set_default_headers(self):
         self.set_header("Content-Type", "application/json; charset=UTF-8")
 
+    # 动态读取所有指标
     def get(self):
         # achive all risk indexes
         risk_indexes = readIndex()[0]
@@ -45,7 +47,7 @@ class IndexHandler(tornado.web.RequestHandler):
             "risk_indexes": risk_indexes
         }
         self.write(json.dumps(data))
-
+    # 增加指标
     def post(self):
         # add risk index
         data = self.request.body.decode('utf-8')

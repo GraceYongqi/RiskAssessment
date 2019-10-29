@@ -42,6 +42,16 @@ def readSend(level):
     receiver = sf.get(level,"receiver")
     return isSend,receiver
 
+def readContacts(rcvs):
+    of = ConfigParser.ConfigParser()
+    of.read("../configs/contacts.conf")
+    result = []
+    for rcv in rcvs:
+        res = of.get(rcv,"mail")
+        for i in res:
+            result.append(i)
+    return result
+
 # main function
 if __name__ == '__main__':
     print readIndex()[0],readIndex()[1],readIndex()[2]

@@ -164,7 +164,6 @@ def test():
 
 
 def compute_by_config(choice_arr):
-    # 该函数被前端调用没问题，但是前端仍然是写死的12个choice，前后端同步更改
     # 在当前目录调用ReadConfig，读取操作也在当前目录运行，当前目录没有config文件，就会读不到
     # 放到上级总目录configs中
     res = ReadConfig.readIndex()
@@ -174,6 +173,9 @@ def compute_by_config(choice_arr):
     f = []
     out = []
     totalRes = []
+    count = len(choice_arr)
+    # print 'choice_arr:', choice_arr
+    # for counter in range(1, count-1):
     for counter in range(len(choice_arr)):
         impact_fn = init_fuzzy(impact_arr[counter])
         impact = occur_levels[str(choice_arr[counter])]
@@ -227,4 +229,6 @@ def compute_by_config(choice_arr):
 # main function
 if __name__ == '__main__':
     # testx()
-    compute_by_config([1,0,0,1,1,1,1,0,1,0,1,0])
+    res = compute_by_config(["确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生",
+                       "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生", "确定未发生"])
+    print res

@@ -19,8 +19,11 @@
         </FormItem>
     </Form> -->
     <div>
-        <Button type="primary" style="position:relative; left: 60px;" @click="handleSubmit">计算风险等级</Button>        
+        <Button type="primary" style="position:relative; left: 60px;" @click="handleSubmit">计算风险等级</Button>   
         <Form style="height: 600px; overflow-y: auto;">
+            <FormItem label="案件编号">
+                <Input v-model="caseName" placeholder="Enter something..."></Input>
+            </FormItem>     
             <FormItem 
             v-for="(item, index) in titleArray" 
             :key="index" 
@@ -45,8 +48,9 @@ export default {
             titleArray : [],
             valueArray : [],
             enumOccur:Config.enum_occur,
+            caseName : '',
             formItem: {
-                    occur: ''
+                    occur: '',
             }
         }
 

@@ -46,6 +46,24 @@ export default {
                     data : [],
                 },
                 yAxis: {min: 0, max: 9, name: '风险等级'},
+                // colorAxis: {
+                //     dataClasses: [{
+                //         from: 3,
+                //         to: 5,
+                //         color: '#FEFB3B',
+                //         name: '低危'
+                //     }, {
+                //         from: 6,
+                //         to: 7,
+                //         color: '#ECB32A',
+                //         name: '中危'
+                //     }, {
+                //         from: 8,
+                //         to: 9,
+                //         color: '#DB2A03',
+                //         name: '高危'
+                //     }]
+                // },
                 series : [
                     {
                         type:'bar',

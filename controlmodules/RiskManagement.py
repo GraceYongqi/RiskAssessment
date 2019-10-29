@@ -27,6 +27,7 @@ risk_levels = {'低危':'low', '中危': 'medium', '高危': 'high'}
 # class definition
 
 # function definition
+# 动态增加指标
 def index_management(category, name, impact, probability):
     cf = ConfigParser.ConfigParser()
     path = '../configs/'+str(category)+'.conf'

@@ -3,7 +3,7 @@
         <Layout>
             <Header>
                 <Menu mode="horizontal" theme="dark" active-name="1">
-                    <div class="layout-logo">审判风险评估系统</div>
+                    <div class="layout-logo">审判风险</div>
                     <div class="layout-nav">
                         <MenuItem name="1">
                             <Icon type="ios-navigate"></Icon>
